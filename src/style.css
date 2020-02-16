@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  font-family: Lato;
+}
+
+.hover-parent:hover .hover-child {
+  visibility: visible;
+}
+
+.hover-child {
+  visibility: hidden;
+}
